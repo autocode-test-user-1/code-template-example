@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TemplateTest {
-
+//release
     @ParameterizedTest
     @ValueSource(strings = {"abc", "123", "Hello world!"})
     @DisplayName("Reverse test")
